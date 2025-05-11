@@ -73,10 +73,7 @@ const UserList = () => {
           <tbody>
             {/* mapping user */}
             {userAll.map((user, index) => (
-              <tr
-                key={user.id}
-                className="text-center border-b hover:bg-gray-100"
-              >
+              <tr key={user.id} className="border-b hover:bg-gray-100">
                 <td className="py-2 px-4 border w-11 text-center">
                   {index + 1}.
                 </td>
